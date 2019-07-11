@@ -23,12 +23,22 @@ const students = [
 // END OF GLOBAL VARIABLES //
 /////////////////////////////
 
-function rand(min, max) { 
-    const decimal = Math.random()* (max - min) +min; 
-    const times21 = decimal;
-    const final = Math.floor(times21);
+// function rand(min, max) { 
+//     const decimal = Math.random()* (max - min) +min; 
+//     const times21 = decimal;
+//     const final = Math.floor(times21);
 
-    return final
-}
+//     return final
+// }
 
-console.log(rand(0, 21));
+// console.log(rand(0, 21));
+
+// function randomLetter() {
+//     const len = alphabet.length - 1;
+//     const num = Math.random() * len;
+//     const roundNum=Math.floor(num)
+//     const final = alphabet[roundNum]
+//     return final
+// }
+
+// console.log(randomLetter())
