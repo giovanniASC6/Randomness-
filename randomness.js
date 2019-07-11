@@ -23,14 +23,12 @@ const students = [
 // END OF GLOBAL VARIABLES //
 /////////////////////////////
 
-function rand() { 
-   const min = 0
-   const max = 21
+function rand(min, max) { 
     const decimal = Math.random()* (max - min) +min; 
-    const times21 = decimal *multiplier;
+    const times21 = decimal;
     const final = Math.floor(times21);
 
     return final
 }
 
-console.log(final + random);
+console.log(rand(0, 21));
